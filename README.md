@@ -134,7 +134,7 @@ See [CONTRIBUTING](CONTRIBUTING.md)
 1. Package name changed to `favoloso-yaml-embedded-languages` to avoid ambiguity with the original extension.
 2. Added co-author
 3. Build package with `npm run generate` and `npm run build`
-4. Generate VSIX with `vsce package`
+4. Generate VSIX with `npx @vscode/vsce -- package`
 5. Send VSIX to team members for manual installation
 
 - `release` branch is just for Favoloso releases and is not merged back to `master`.
